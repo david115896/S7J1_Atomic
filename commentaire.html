@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <title>KIT UI : Navbar</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            
+            <link href="https://fonts.googleapis.com/css?family=Cookie|Enriqueta&display=swap" rel="stylesheet"> 
+            <script src="https://kit.fontawesome.com/a94a892879.js" crossorigin="anonymous"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+            
+            <link rel="stylesheet" href="style.css" />
+        </head>
+
+        <body >
+            <div class="container mt-3 p-3 bg-white border border-gray">
+                <h4 class="border-bottom border-gray mb-3"> Section de Commentaires</h4>
+                <div class="container">
+                    <form class="comment" name="sentMessage" id="contactForm" novalidate="">
+                        <div class="form-group mb-1">
+                            <label for="Comment"> Ajouter un commentaire</label>
+                            <input type="email" class="form-control" id="Comment" aria-describedby="commentHelp" placeholder="Saisir votre commentaire">
+                            <small id="commentHelp" class="form-text text-muted"> Commentaire de minimum 20 caracteres</small>
+                        </div>
+                        <br>
+                        <div class="actions mb-4">
+                            <button type="submit" class="btn btn-sm btn-primary text-uppercase" id="sendMessageButton"> Commenter </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="dropdown-divider m-3"></div>
+
+                <div class="card p-2 mb-2" >
+                    <div class="media text-muted pt-3">
+                        <img alt="32x32" class="mr-2 rounded" style="width: 32px; height: 32px;" src="avatar.svg">
+                        <p class="d-block media-body pb-3 mb-0 small text-gray-dark "> <strong >David.T </strong> </br> a 18h, le 3 Decembre 2019. </p>
+                        <p  class=" pb-3 mb-0 small " >Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+                        </p>
+                    </div>
+                </div>
+                <div class="card p-2 mb-2" >
+                    <div class="media text-muted pt-3">
+                        <img alt="32x32" class="mr-2 rounded" style="width: 32px; height: 32px;" src="avatar.svg">
+                        <p class="d-block media-body pb-3 mb-0 small text-gray-dark "> <strong >David.T </strong> </br> a 18h, le 3 Decembre 2019. </p>
+                        <p  class=" pb-3 mb-0 small " >Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+                        </p>
+                    </div>
+                </div>
+            </div>             
+
+        </body>
+
+    </html>
+
+
